@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+results/
+.git
+.gitignore
+README.md
+docs/

@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "category": "Generación de texto",
+        "prompt": "Redactar un correo formal al profesor solicitando una revisión de nota a partir de tres ideas: 1. Un saludo respetuoso, 2. Revisión de la pregunta 6 del examen, 3. Agradecimiento por su tiempo.",
+        "temperature": 0.7,
+        "response": " Su Excelencia,\n\nEstimado Profesor [Nombre],\n\nAgradecido por su atención, deseo solicitar una revisión de mi nota en relación con la pregunta 6 del examen [Nombre del examen]. He observado que en mi respuesta pude haber cometido algún error y deseo su asesoría para mejorar mi comprensión del tema.\n\nTengo la convicción de que su experiencia y conocimiento en este ámbito serán de gran ayuda para mi desarrollo académico y agradezco su tiempo y esfuerzo en la revisión de mi trabajo.\n\nEn espera de su respuesta y sugerencias, estoy a su disposición para cualquier duda adicional que me pueda plantear.\n\nMuchas gracias por su apoyo.\n\nAtentamente,\n\n[Tu nombre]\n[Tu carrera]\n[Nombre del curso]\n[Año]",
+        "time_seconds": 178.94
+    },
+    {
+        "id": "1_temp_0.2",
+        "category": "Generación de texto",
+        "prompt": "Redactar un correo formal al profesor solicitando una revisión de nota a partir de tres ideas: 1. Un saludo respetuoso, 2. Revisión de la pregunta 6 del examen, 3. Agradecimiento por su tiempo.",
+        "temperature": 0.2,
+        "response": " Su excelencia,\n\nEstimado Profesor,\n\nEspero que este correo encuentre a usted en buenos momentos. Estoy escribiendo para solicitar una revisión de mi nota en el examen reciente, en particular en la pregunta número 6.\n\nAgradezco su comprensión y su esfuerzo en la preparación y evaluación de los exámenes, y espero que usted pueda encontrar el tiempo para revisar mi trabajo.\n\nMuchas gracias por su tiempo y su dedicación a nuestra clase.\n\nAtentamente,\n[Tu Nombre]\n[Tu Apellido]\n[Tu número de matrícula]",
+        "time_seconds": 85.98
+    },
+    {
+        "id": "1_temp_0.9",
+        "category": "Generación de texto",
+        "prompt": "Redactar un correo formal al profesor solicitando una revisión de nota a partir de tres ideas: 1. Un saludo respetuoso, 2. Revisión de la pregunta 6 del examen, 3. Agradecimiento por su tiempo.",
+        "temperature": 0.9,
+        "response": " Subject: Solicitud de Revisión de Nota para Pregunta 6 (Examen)\n\nEstimado Profesor/a,\n\nA través de este correo le agradecería humildemente su atención en mi solicitud de revisión de mi nota para la pregunta 6 del examen que recientemente realizé en su materia.\n\nAgradezco por su dedicación y compromiso en su labor docente, que me ha permitido aprender mucho durante este semestre. Deseo estar seguro de que entendí correctamente las ideas y conceptos que se trataron en dicha pregunta, por lo que me esforzaría a la mayor medida posible en trabajar en mi presentación, y por lo tanto, considero que una revisión de mi nota sería muy útil en mi proceso de aprendizaje.\n\nEspero que pueda encontrar el tiempo para revisar mi nota y aclararme cualquier duda que tenga, ya que aprendo mucho de su experiencia y conocimientos en esta materia.\n\nAtento y respetuosamente,\n\n[Tu Nombre y Aparte]\n\n[Identificador de Alumno]\n[Institución Educativa]",
+        "time_seconds": 115.23
+    },
+    {
+        "id": 2,
+        "category": "Generación de texto",
+        "prompt": "Redactar un correo formal donde se invita a un taller de introducción a la inteligencia artificial dirigido para estudiantes de la Universidad Central.",
+        "temperature": 0.7,
+        "response": " Sujeto: Invitación a Taller de Introducción a la Inteligencia Artificial en la Universidad Central\n\nEstimado/a estudiante de la Universidad Central,\n\nEs un placer presentarle la invitación a un taller de introducción a la Inteligencia Artificial (IA) que se llevará a cabo próximamente en nuestra institución. Este evento es especialmente diseñado para estudiantes interesados en aprender sobre la IA y cómo puede tener un impacto importante en sus estudios actuales y futuros.\n\nEl taller cubrirá temas como los fundamentos de la inteligencia artificial, las aplicaciones prácticas, y los desafíos y oportunidades que presenta este campo de investigación. Además, tendrá la oportunidad de interactuar con expertos en la IA y compartir sus conocimientos con otros estudiantes interesados en el tema.\n\nEl taller se llevará a cabo el [día y fecha] en el [lugar o sala], y comienza a las [hora y minutos]. El evento es gratuito y abierto a todos los estudiantes interesados.\n\nSi está interesado en asistir al taller, por favor confirme su presencia enviando un correo electrónico a [correo electrónico de contacto] antes del [fecha de respuesta].\n\nEsperamos verle en este evento y esperamos que le proporcione una oportunidad única para aprender sobre la inteligencia artificial y cómo puede tener un impacto en sus estudios y carrera.\n\nSaludos cordiales,\n\n[Nombre y cargo del organizador del taller]\n[Institución académica]",
+        "time_seconds": 167.1
+    },
+    {
+        "id": 3,
+        "category": "Resumen",
+        "prompt": "Resumir el texto en 3 viñetas: La inteligencia artificial generativa transformó la forma en que interactuamos con las computadoras. Los modelos de lenguaje actuales nos permiten procesar lenguaje natural, escribir código, solucionar problemas complejos mediante técnicas de aprendizaje profundo y arquitecturas basadas en atención.",
+        "temperature": 0.7,
+        "response": " 1. La inteligencia artificial generativa ha revolucionado nuestras interacciones con las computadoras, permitiendo una forma más natural de comunicarnos.\n\n2. Los modelos de lenguaje actuales poseen la capacidad de procesar lenguaje natural, escribir código y resolver problemas complejos gracias a las técnicas de aprendizaje profundo y arquitecturas basadas en atención.\n\n3. Esto significa que las computadoras pueden entender y responder de forma más humana, ofreciendo una interfaz más intuitiva y eficaz.",
+        "time_seconds": 64.61
+    },
+    {
+        "id": 4,
+        "category": "Resumen",
+        "prompt": "Resumir en 3 viñetas principales ventajas del uso de modelos de lenguaje locales frente al servicio en la nube, la independencia de internet y destacando la privacidad de los datos.",
+        "temperature": 0.7,
+        "response": " 1. Mejor rendimiento: Los modelos de lenguaje locales procesan datos sin necesidad de conexión a internet, lo que reduce el tiempo de respuesta y mejora la experiencia del usuario en entornos donde la conexión es lenta o inestable.\n\n2. Independencia de internet: Al procesar datos localmente, los modelos de lenguaje locales no dependen de la conexión a internet para poder funcionar. Esto es especialmente importante en entornos donde no hay acceso a internet o donde la conexión es cara o lenta.\n\n3. Privacidad de datos: Los modelos de lenguaje locales procesan datos localmente, lo que reduce la cantidad de datos que se envían a las nubes y aumenta la privacidad de los datos. Esto es especialmente importante para los usuarios que desean mantener su información privada y protegida de la vigilancia y el uso no autorizado por parte de terceros.",
+        "time_seconds": 99.53
+    },
+    {
+        "id": 5,
+        "category": "Corrección y traducción",
+        "prompt": "Corregir la gramática y ortografía del texto: 'ayer fuimos al merrcado para comprar despenza como aroz y huevos para hacer un rico dezayuno.'",
+        "temperature": 0.7,
+        "response": " 'Ayer fuimos al mercado para comprar despensa, como arroz y huevos, para hacer un rico desayuno.'\n\nExplicación:\n- 'mercado' está correcto, pero 'despenza' debe ser 'despensa'\n- 'como aroz y huevos' se puede simplificar a 'como arroz y huevos' (no es necesario usar 'y' antes de los artículos)\n- 'dezayuno' debe ser 'desayuno' (no es una palabra correcta, debe usarse 'desayuno' en su lugar)",
+        "time_seconds": 62.4
+    },
+    {
+        "id": 6,
+        "category": "Corrección y traducción",
+        "prompt": "Traducir al inglés el siguiente enunciado: 'El uso correcto de modelos de inteligencia artificial garantiza un mejor control sobre los datos corporativos.'",
+        "temperature": 0.7,
+        "response": " 'The correct use of artificial intelligence models ensures better control over corporate data.'",
+        "time_seconds": 11.61
+    },
+    {
+        "id": 7,
+        "category": "Código",
+        "prompt": "Generar una consulta con SQL que selecciona todos los registros de una tabla nombrada 'estudiantes' donde la nota sea mayor o igual a 70.",
+        "temperature": 0.7,
+        "response": " Para generar una consulta SQL que selecciona todos los registros de una tabla nombrada 'estudiantes' donde la nota sea mayor o igual a 70, puedes utilizar la siguiente consulta:\n\n```sql\nSELECT * FROM estudiantes WHERE nota >= 70;\n```\n\nEn esta consulta, la cláusula WHERE es usada para filtrar los registros de la tabla 'estudiantes' por la condición específica de que la nota debe ser mayor o igual a 70. El operador >= significa \"mayor o igual a\", por lo que todas las filas en la tabla 'estudiantes' donde la nota es 70 o mayor serán seleccionadas.",
+        "time_seconds": 74.85
+    },
+    {
+        "id": 8,
+        "category": "Código",
+        "prompt": "En Python escribir una función que recibe una lista de números y que devuelva un diccionario con valor máximo y mínimo.",
+        "temperature": 0.7,
+        "response": " Sí, aquí tienes una función en Python que recibe una lista de números y devuelve un diccionario con el valor máximo y mínimo.\n\n```python\ndef min_max_dict(numbers):\n    if len(numbers) == 0:\n        return {\"max\": None, \"min\": None}\n\n    min_value = min(numbers)\n    max_value = max(numbers)\n\n    return {\"max\": max_value, \"min\": min_value}\n\n# Prueba\nnumbers = [5, 1, 8, 3, 6, 2]\nprint(min_max_dict(numbers))\n```\n\nEsta función usa la función `min()` y `max()` de Python para encontrar el valor mínimo y máximo de la lista, y luego devuelve un diccionario con esos valores. Si la lista está vacía, devuelve un diccionario con `None` para los valores mínimo y máximo.",
+        "time_seconds": 105.04
+    },
+    {
+        "id": 9,
+        "category": "Razonamiento y veracidad",
+        "prompt": "Problema lógico: Si Carlos es más alto que Sareth, y Sareth es más alta que Nazareth, ¿Quién sera el mas bajo de los tres? Explica paso a paso.",
+        "temperature": 0.7,
+        "response": " En este problema, se establece una relación de ordenamiento entre los nombres Carlos, Sareth y Nazareth. La relación indica que si Carlos es más alto que Sareth, y Sareth es más alta que Nazareth, entonces se puede inferir que Carlos es más alto que Nazareth. En otras palabras, el orden de altura de los tres sería Carlos > Sareth > Nazareth. Por lo tanto, Nazareth sería el más bajo de los tres.\n\nPaso a paso:\n\n1. Carlos es más alto que Sareth (C > S).\n2. Sareth es más alta que Nazareth (S > N).\n3. A partir de las dos relaciones anteriores, se puede inferir que Carlos es más alto que Nazareth (C > N).\n4. Por lo tanto, Nazareth es el más bajo de los tres.",
+        "time_seconds": 90.69
+    },
+    {
+        "id": "9_temp_0.2",
+        "category": "Razonamiento y veracidad",
+        "prompt": "Problema lógico: Si Carlos es más alto que Sareth, y Sareth es más alta que Nazareth, ¿Quién sera el mas bajo de los tres? Explica paso a paso.",
+        "temperature": 0.2,
+        "response": " Para resolver este problema lógico, vamos a analizar la información proporcionada:\n\n1. Carlos es más alto que Sareth.\n2. Sareth es más alta que Nazareth.\n\nA partir de estas dos informaciones, podemos inferir que Carlos es más alto que Nazareth, ya que si Sareth es más alta que Nazareth y Carlos es más alto que Sareth, entonces Carlos debe ser más alto que Nazareth.\n\nPor lo tanto, Nazareth es el más bajo de los tres.\n\nEn resumen, paso a paso:\n\n1. Carlos > Sareth (Carlos es más alto que Sareth).\n2. Sareth > Nazareth (Sareth es más alta que Nazareth).\n3. Por lo tanto, Carlos > Nazareth (Carlos es más alto que Nazareth).\n4. Por lo tanto, Nazareth es el más bajo de los tres.",
+        "time_seconds": 95.45
+    },
+    {
+        "id": "9_temp_0.9",
+        "category": "Razonamiento y veracidad",
+        "prompt": "Problema lógico: Si Carlos es más alto que Sareth, y Sareth es más alta que Nazareth, ¿Quién sera el mas bajo de los tres? Explica paso a paso.",
+        "temperature": 0.9,
+        "response": " Para resolver este problema lógico, lo primero que debemos hacer es estructurar la información de forma clara y fácil de entender. Vamos a hacer lo siguiente:\n\n1. Primero, debemos definir las alturas de cada uno de los tres individuos en un orden en que sean más fáciles de comparar:\n   - Si Carlos es más alto que Sareth, y Sareth es más alta que Nazareth, entonces:\n       - Carlos > Sareth > Nazareth\n\n2. Para responder la pregunta de quién sería el más bajo de los tres, basta con ver que las personas están en orden decreciente de altura. Por lo tanto, en este caso, Nazareth sería el más bajo de los tres.\n\nEspero que este resumen haya ayudado a entender cómo se resuelve el problema de manera lógica.",
+        "time_seconds": 95.29
+    },
+    {
+        "id": 10,
+        "category": "Razonamiento y veracidad",
+        "prompt": "Pregunta factual: ¿Quién fue el que creó el lenguaje de programación Python y cuál fue su año de lanzamiento por primera vez?",
+        "temperature": 0.7,
+        "response": " El lenguaje de programación Python fue creado por Guido van Rossum y fue lanzado por primera vez en el año 1991.",
+        "time_seconds": 18.15
+    }
+]

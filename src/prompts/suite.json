@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "id": 1,
+      "category": "Generación de texto",
+      "prompt": "Redactar un correo formal al profesor solicitando una revisión de nota a partir de tres ideas: 1. Un saludo respetuoso, 2. Revisión de la pregunta 6 del examen, 3. Agradecimiento por su tiempo."
+    },
+    {
+      "id": 2,
+      "category": "Generación de texto",
+      "prompt": "Redactar un correo formal donde se invita a un taller de introducción a la inteligencia artificial dirigido para estudiantes de la Universidad Central."
+    },
+    {
+      "id": 3,
+      "category": "Resumen",
+      "prompt": "Resumir el texto en 3 viñetas: La inteligencia artificial generativa transformó la forma en que interactuamos con las computadoras. Los modelos de lenguaje actuales nos permiten procesar lenguaje natural, escribir código, solucionar problemas complejos mediante técnicas de aprendizaje profundo y arquitecturas basadas en atención."
+    },
+    {
+      "id": 4,
+      "category": "Resumen",
+      "prompt": "Resumir en 3 viñetas principales ventajas del uso de modelos de lenguaje locales frente al servicio en la nube, la independencia de internet y destacando la privacidad de los datos."
+    },
+    {
+      "id": 5,
+      "category": "Corrección y traducción",
+      "prompt": "Corregir la gramática y ortografía del texto: 'ayer fuimos al merrcado para comprar despenza como aroz y huevos para hacer un rico dezayuno.'"
+    },
+    {
+      "id": 6,
+      "category": "Corrección y traducción",
+      "prompt": "Traducir al inglés el siguiente enunciado: 'El uso correcto de modelos de inteligencia artificial garantiza un mejor control sobre los datos corporativos.'"
+    },
+    {
+      "id": 7,
+      "category": "Código",
+      "prompt": "Generar una consulta con SQL que selecciona todos los registros de una tabla nombrada 'estudiantes' donde la nota sea mayor o igual a 70."
+    },
+    {
+      "id": 8,
+      "category": "Código",
+      "prompt": "En Python escribir una función que recibe una lista de números y que devuelva un diccionario con valor máximo y mínimo."
+    },
+    {
+      "id": 9,
+      "category": "Razonamiento y veracidad",
+      "prompt": "Problema lógico: Si Carlos es más alto que Sareth, y Sareth es más alta que Nazareth, ¿Quién sera el mas bajo de los tres? Explica paso a paso."
+    },
+    {
+      "id": 10,
+      "category": "Razonamiento y veracidad",
+      "prompt": "Pregunta factual: ¿Quién fue el que creó el lenguaje de programación Python y cuál fue su año de lanzamiento por primera vez?"
+    }
+  ]
+}
