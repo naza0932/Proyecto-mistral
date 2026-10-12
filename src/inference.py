@@ -33,7 +33,7 @@ def query_ollama(prompt_text, temperature=0.7):
         return None, 0
 #Definir el archivo de prompts de prueba
 def main():
-    suite_path = os.path.join("prompts", "suite.json")
+    suite_path = os.path.join("..","prompts", "suite.json")
     
     if not os.path.exists(suite_path):
         print(f"Hay un error, no se encuentra el archivo {suite_path}. Revisa la ruta por favor.")
@@ -79,8 +79,9 @@ def main():
                 })
 
     # Guardar resultados en la carpeta results/
-    os.makedirs("../results", exist_ok=True)
-    output_file = os.path.join("..", "results", "evaluation_results.json")
+    results_dir = os.path.join("..", "results")
+    os.makedirs(results_dir, exist_ok=True)
+    output_file = os.path.join(results_dir, "evaluation_results.json")
     # Guardar los resultados en un archivo JSON
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
