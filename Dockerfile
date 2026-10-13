@@ -12,12 +12,15 @@ USER appuser
 COPY --chown=appuser:appuser requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
 
+#Agregar el directorio local al  PATH del usuario
+ENV PATH="/home/appuser/.local/bin:${PATH}"
+
 # Copiar código fuente y la suite de prompts
 COPY --chown=appuser:appuser src/ ./src/
 COPY --chown=appuser:appuser prompts/ ./prompts/
 
 # Crear una carpeta de resultados dentro del contenedor
-RUN mkdir -p /app/results
+RUN mkdir -p results
 
 # Comando por defecto al ejecutar el contenedor
 CMD ["python", "src/inference.py"]

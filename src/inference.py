@@ -26,11 +26,31 @@ def query_ollama(prompt_text, temperature=0.7):
         with urllib.request.urlopen(req) as response:
             res_data = json.loads(response.read().decode("utf-8"))
             elapsed = time.time() - start_time
-            return res_data.get("response", ""), elapsed
+            #Calcula las metricas entregadas por Ollama
+            prompt_eval_ns = res_data.get("prompt_eval_duration", 0)
+            ttft_seconds = round(prompt_eval_ns / 1e9, 4) if prompt_eval_ns else 0
+            
+            eval_count = res_data.get("eval_count", 0)
+            eval_duration_ns = res_data.get("eval_duration", 0)
+            
+            tokens_per_second = 0
+            if eval_count and eval_duration_ns:
+                tokens_per_second = round(eval_count / (eval_duration_ns / 1e9), 2) 
+            
+            return {
+                "response": res_data.get("response", ""),
+                "total_time_s": round(elapsed, 2),
+                "ttft_s": ttft_seconds,
+                "tokens_generated": eval_count,
+                "tokens_per_second": tokens_per_second
+                
+                
+            }
     except urllib.error.URLError as e:
-        print(f"Error al querer conectarse cpn Ollama: {e.reason}")
-        print("¿Asegurese de tener Ollama abierto en tu PC?")
-        return None, 0
+        print(f"Error al intentar conectarse con Ollama: {e.reason}") 
+        print("Por favor, asegurese de tener Ollama abierto en su PC")
+        return None   
+        
 #Definir el archivo de prompts de prueba
 def main():
     suite_path = os.path.join("..","prompts", "suite.json")
@@ -53,30 +73,54 @@ def main():
         print(f"Procesando el Test ID {test_id} [{category}]...")
         
         # Ejecución estandar con temperatura por defecto (0.7)
-        response_text, elapsed = query_ollama(prompt, temperature=0.7)
-        
-        results.append({
-            "id": test_id,
-            "category": category,
-            "prompt": prompt,
-            "temperature": 0.7,
-            "response": response_text,
-            "time_seconds": round(elapsed, 2)
-        })
+        metrics = query_ollama(prompt, temperature=0.7)
+        if metrics:
+            results.append({
+                "id": test_id,
+                "category": category,
+                "prompt": prompt,
+                "temperature": 0.7,
+                "response": metrics["response"],
+                "time_seconds": metrics["total_time_s"],
+                "ttft_seconds": metrics["ttft_s"],
+                "tokens_generated": metrics["tokens_generated"],
+                "tokens_per_second": metrics["tokens_per_second"]
+                
+            })
 
         # Repetir 2 prompts (ID 1 y ID 9) con temperaturas 0.2 y 0.9 para comparar
         if test_id in [1, 9]:
             print(f" -> Probando variaciones de temperatura de 0.2 y 0.9 para ID {test_id}...")
             for temp in [0.2, 0.9]:
-                resp_temp, elapsed_temp = query_ollama(prompt, temperature=temp)
-                results.append({
-                    "id": f"{test_id}_temp_{temp}",
-                    "category": category,
-                    "prompt": prompt,
-                    "temperature": temp,
-                    "response": resp_temp,
-                    "time_seconds": round(elapsed_temp, 2)
-                })
+                m_temp= query_ollama(prompt, temperature=temp)
+                if m_temp:
+                    results.append({
+                        "id": f"{test_id}_temp_{temp}",
+                        "category": category,
+                        "prompt": prompt,
+                        "temperature": 0.7,
+                        "response": metrics["response"],
+                        "time_seconds": metrics["total_time_s"],
+                        "ttft_seconds": metrics["ttft_s"],
+                        "tokens_generated": metrics["tokens_generated"],
+                        "tokens_per_second": metrics["tokens_per_second"]
+                    })
+                if test_id in [1, 9]:
+                    print(f" -> Probando variaciones de temperatura de 0.2 y 0.9 para ID {test_id}...")
+                    for temp in [0.2, 0.9]:
+                        m_temp= query_ollama(prompt, temperature=temp)
+                        if m_temp:
+                            results.append({
+                                "id": f"{test_id}_temp_{temp}",
+                                "category": category,
+                                "prompt": prompt,
+                                "temperature": temp,
+                                "response": m_temp["response"],
+                                "time_seconds": m_temp["total_time_s"],
+                                "ttft_seconds": m_temp["ttft_s"],
+                                "tokens_generated": m_temp["tokens_generated"],
+                                "tokens_per_second": m_temp["tokens_per_second"]
+                            }) 
 
     # Guardar resultados en la carpeta results/
     results_dir = os.path.join("..", "results")

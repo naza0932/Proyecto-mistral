@@ -1,7 +1,6 @@
 __pycache__/
 *.pyc
 results/
-.git
+.git/
 .gitignore
-README.md
 docs/
