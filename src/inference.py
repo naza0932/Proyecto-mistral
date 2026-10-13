@@ -3,8 +3,11 @@ import urllib.request
 import urllib.error
 import time
 import os
+
+#Se obtiene el directorio base del script para las rutas relativas seguras
+SCRIPT_DIR = os .path.dirname(os.path.abspath(__file__))
 #Configuración de la parte principal del modelo y la ruta del servidor local
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = os.environ.get ("OLLAMA_URL","http://localhost:11434/api/generate")
 MODEL_NAME = "mistral:latest"
 #Configuración de la función para realizar consultas al modelo Ollama
 def query_ollama(prompt_text, temperature=0.7):
@@ -53,7 +56,7 @@ def query_ollama(prompt_text, temperature=0.7):
         
 #Definir el archivo de prompts de prueba
 def main():
-    suite_path = os.path.join("..","prompts", "suite.json")
+    suite_path = os.path.join(SCRIPT_DIR, "..", "prompts", "suite.json")
     
     if not os.path.exists(suite_path):
         print(f"Hay un error, no se encuentra el archivo {suite_path}. Revisa la ruta por favor.")
@@ -89,6 +92,7 @@ def main():
             })
 
         # Repetir 2 prompts (ID 1 y ID 9) con temperaturas 0.2 y 0.9 para comparar
+        
         if test_id in [1, 9]:
             print(f" -> Probando variaciones de temperatura de 0.2 y 0.9 para ID {test_id}...")
             for temp in [0.2, 0.9]:
@@ -98,32 +102,16 @@ def main():
                         "id": f"{test_id}_temp_{temp}",
                         "category": category,
                         "prompt": prompt,
-                        "temperature": 0.7,
-                        "response": metrics["response"],
-                        "time_seconds": metrics["total_time_s"],
-                        "ttft_seconds": metrics["ttft_s"],
-                        "tokens_generated": metrics["tokens_generated"],
-                        "tokens_per_second": metrics["tokens_per_second"]
-                    })
-                if test_id in [1, 9]:
-                    print(f" -> Probando variaciones de temperatura de 0.2 y 0.9 para ID {test_id}...")
-                    for temp in [0.2, 0.9]:
-                        m_temp= query_ollama(prompt, temperature=temp)
-                        if m_temp:
-                            results.append({
-                                "id": f"{test_id}_temp_{temp}",
-                                "category": category,
-                                "prompt": prompt,
-                                "temperature": temp,
-                                "response": m_temp["response"],
-                                "time_seconds": m_temp["total_time_s"],
-                                "ttft_seconds": m_temp["ttft_s"],
-                                "tokens_generated": m_temp["tokens_generated"],
-                                "tokens_per_second": m_temp["tokens_per_second"]
-                            }) 
+                        "temperature": temp,
+                        "response": m_temp["response"],
+                        "time_seconds": m_temp["total_time_s"],
+                        "ttft_seconds": m_temp["ttft_s"],
+                        "tokens_generated": m_temp["tokens_generated"],
+                        "tokens_per_second": m_temp["tokens_per_second"]
+                    }) 
 
     # Guardar resultados en la carpeta results/
-    results_dir = os.path.join("..", "results")
+    results_dir = os.path.join(SCRIPT_DIR, "..", "results")
     os.makedirs(results_dir, exist_ok=True)
     output_file = os.path.join(results_dir, "evaluation_results.json")
     # Guardar los resultados en un archivo JSON
