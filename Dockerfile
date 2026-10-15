@@ -23,4 +23,4 @@ COPY --chown=appuser:appuser prompts/ ./prompts/
 RUN mkdir -p results
 
 # Comando por defecto al ejecutar el contenedor
-CMD ["python", "src/inference.py"]
+ENTRYPOINT ["python", "src/inference.py"]
