@@ -26,27 +26,24 @@ py inference.py
 
 Segunda opción: Ejecución aislada con Docker Dekstop
 1. Desde la terminal en Visual Studio Code, se construye la imagen local:
-docker build -t mistral-eval:latest .
+docker build -t ministral-3b-eval:latest .
 
 2. Se verifica la imagen creada y su tamaño:
 docker images
 
 3. Se ejecuta la suite dentro del contenedor:
-docker run --rm --add-host=host.docker.internal:host-gateway -e OLLAMA_URL="http://host.docker.internal:11434/api/generate" -v "${PWD}/results:/app/results" mistral-eval:latest
+docker run --rm --add-host=host.docker.internal:host-gateway -e OLLAMA_URL="http://host.docker.internal:11434/api/generate" -v "${PWD}/results:/app/results" ministral-3b-eval:latest --model ministral-3:3b
 
 # Ejemplo de salida genereda
 El archivo se va a guardar en la carpeta results, bajo el nombre evaluation_results.json, se almacena la repuesta estructurada del modelo y sus métricas. Un ejemplo de como se veria: 
-{
-  "id": 10,
-  "category": "Razonamiento y    veracidad",
-  "prompt": "Pregunta factual: ¿Quién fue el que creó el lenguaje de programación Python y cuál fue su año de lanzamiento por primera vez?",
-  "temperature": 0.7,
-  "response": "El lenguaje de programación Python fue creado por Guido van Rossum, y fue lanzado por primera vez en 1991.",
-  "time_seconds": 20.29,
-  "ttft_seconds": 4.4414,
-  "tokens_generated": 34,
-  "tokens_per_second": 2.57
-}
-
-
-
+ {
+        "id": 3,
+        "category": "Corrección y traducción",
+        "prompt": "Corrige los errores ortográficos: 'Hola, me gustaría saber si puueden enbiar el informe antes del 27 de octubre. En caso contrario, ¿poddrian avizarme con al menos 3 dias de antelación? Gracias por su atencióón.'",
+        "temperature": 0.7,
+        "response": "Aquí está tu mensaje corregido:\n\n---\n**Hola, me gustaría saber si podrían enviar el informe antes del 27 de octubre.**\n**En caso contrario, ¿podrían avisarme con al menos tres días de antelación?**\n**Gracias por su atención.**\n\n---\n\n*Cambios realizados:*\n- **\"puueden\"** → **\"podrían\"**\n- **\"enbiar\"** → **\"enviar\"**\n- **\"poddrian\"** → **\"podrían\"**\n- **\"antelación\"** → **\"antelación\"** (se mantuvo correcto, pero se ajustó para mayor claridad en \"3 días de antelación\").\n- **\"atencióón\"** → **\"atención\"** (corrección ortográfica).",
+        "time_seconds": 32.14,
+        "ttft_seconds": 3.2601,
+        "tokens_generated": 154,
+        "tokens_per_second": 5.36
+    },
