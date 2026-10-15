@@ -3,52 +3,52 @@
     {
       "id": 1,
       "category": "Generación de texto",
-      "prompt": "Redactar un correo formal al profesor solicitando una revisión de nota a partir de tres ideas: 1. Un saludo respetuoso, 2. Revisión de la pregunta 6 del examen, 3. Agradecimiento por su tiempo."
+      "prompt": "Redacta un correo formal dirigido a un cliente potencial sobre tres ideas clave para una nueva propuesta de servicio: 1) reducción de costos en logística, 2) mejora en la experiencia del cliente con un chatbot personalizado, y 3) implementación de un sistema de seguimiento en tiempo real para pedidos."
     },
     {
       "id": 2,
-      "category": "Generación de texto",
-      "prompt": "Redactar un correo formal donde se invita a un taller de introducción a la inteligencia artificial dirigido para estudiantes de la Universidad Central."
+      "category": "Resumen",
+      "prompt": "Resume en 3 viñetas el siguiente texto (500 palabras): 'El cambio climático ha acelerado la desertificación en regiones como el Sahel, afectando a más de 60 millones de personas. Las sequías prolongadas reducen la producción agrícola, mientras que la migración interna genera tensiones sociales. Expertos advierten que sin medidas urgentes, el fenómeno podría empeorar en un 30% para 2050.'"
     },
     {
       "id": 3,
-      "category": "Resumen",
-      "prompt": "Resumir el texto en 3 viñetas: La inteligencia artificial generativa transformó la forma en que interactuamos con las computadoras. Los modelos de lenguaje actuales nos permiten procesar lenguaje natural, escribir código, solucionar problemas complejos mediante técnicas de aprendizaje profundo y arquitecturas basadas en atención."
+      "category": "Corrección y traducción",
+      "prompt": "Corrige los errores ortográficos: 'Hola, me gustaría saber si puueden enbiar el informe antes del 27 de octubre. En caso contrario, ¿poddrian avizarme con al menos 3 dias de antelación? Gracias por su atencióón.'"
     },
     {
       "id": 4,
-      "category": "Resumen",
-      "prompt": "Resumir en 3 viñetas principales ventajas del uso de modelos de lenguaje locales frente al servicio en la nube, la independencia de internet y destacando la privacidad de los datos."
+      "category": "Código",
+      "prompt": "Genera una consulta SQL para obtener todos los registros de clientes con un saldo negativo mayor a -500 y ordenados por fecha de última actualización (de más reciente a más antigua). Asumir que la tabla se llama `clientes` con columnas: `id`, `nombre`, `apellido`, `saldo`, `fecha_ultima_actualizacion`."
     },
     {
       "id": 5,
-      "category": "Corrección y traducción",
-      "prompt": "Corregir la gramática y ortografía del texto: 'ayer fuimos al merrcado para comprar despenza como aroz y huevos para hacer un rico dezayuno.'"
+      "category": "Código",
+      "prompt": "Escribe una función Python que calcule el factorial de un número entero positivo. Verifica su funcionamiento con los casos de prueba: `factorial(5)` -> `120`, `factorial(0)` -> `1`, y `factorial(7)` -> `5040`."
     },
     {
       "id": 6,
-      "category": "Corrección y traducción",
-      "prompt": "Traducir al inglés el siguiente enunciado: 'El uso correcto de modelos de inteligencia artificial garantiza un mejor control sobre los datos corporativos.'"
+      "category": "Razonamiento y veracidad",
+      "prompt": "Problema lógico: Si un avión vuela de París a Nueva York en 7 horas con un viento favorable de 200 km/h, y el viento en contra reduce la velocidad a 150 km/h, ¿cuál es la velocidad real del avión en condiciones neutras (sin viento)?"
     },
     {
       "id": 7,
-      "category": "Código",
-      "prompt": "Generar una consulta con SQL que selecciona todos los registros de una tabla nombrada 'estudiantes' donde la nota sea mayor o igual a 70."
+      "category": "Razonamiento y veracidad",
+      "prompt": "Pregunta factual: Según datos verificables de la ONU, ¿cuál es el país con mayor población urbana en el mundo?"
     },
     {
       "id": 8,
-      "category": "Código",
-      "prompt": "En Python escribir una función que recibe una lista de números y que devuelva un diccionario con valor máximo y mínimo."
+      "category": "Generación de texto",
+      "prompt": "Escribe un correo técnico a un equipo de desarrollo explicando tres bugs críticos detectados en la última versión de la app: 1) error en el filtro de búsquedas, 2) fallo en la sincronización de datos offline, y 3) tiempo de carga excesivo en dispositivos móviles."
     },
     {
       "id": 9,
-      "category": "Razonamiento y veracidad",
-      "prompt": "Problema lógico: Si Carlos es más alto que Sareth, y Sareth es más alta que Nazareth, ¿Quién sera el mas bajo de los tres? Explica paso a paso."
+      "category": "Resumen",
+      "prompt": "Resume en 3 viñetas el siguiente extracto de un artículo científico: 'Los microplásticos han sido encontrados en el 97% de los océanos, con concentraciones más altas en zonas costeras. Su impacto en la salud humana aún es debatido, pero estudios sugieren que pueden afectar el sistema inmunológico. La UE ha propuesto regulaciones para reducir su uso en productos de plástico.'"
     },
     {
       "id": 10,
-      "category": "Razonamiento y veracidad",
-      "prompt": "Pregunta factual: ¿Quién fue el que creó el lenguaje de programación Python y cuál fue su año de lanzamiento por primera vez?"
+      "category": "Corrección y traducción",
+      "prompt": "Traduce al inglés: 'El despliegue local de modelos de lenguaje garantiza una mayor privacidad de los datos sensibles de la organización'"
     }
   ]
 }
