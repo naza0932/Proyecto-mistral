@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "category": "Generación de texto",
+        "prompt": "Redacta un correo formal dirigido a un cliente potencial sobre tres ideas clave para una nueva propuesta de servicio: 1) reducción de costos en logística, 2) mejora en la experiencia del cliente con un chatbot personalizado, y 3) implementación de un sistema de seguimiento en tiempo real para pedidos.",
+        "temperature": 0.7,
+        "response": "**Asunto:** Iniciativa innovadora para optimizar su cadena de suministros\n\n**Estimado/a [Nombre del Cliente],**\n\nEs un placer para nosotros dirigirnos a usted con una propuesta que busca alinear nuestros servicios con las necesidades actuales de su negocio, especialmente en un entorno donde la eficiencia y la atención al cliente son prioritarias.\n\nEn [Nombre de la Empresa], hemos identificado tres áreas clave para ofrecerle soluciones tangibles y diferenciadoras:\n\n1. **Reducción de costos en logística**\n   Mediante estrategias de optimización de rutas, alianzas estratégicas con proveedores locales y la utilización de tecnologías avanzadas, estamos comprometidos en disminuir los costos asociados al transporte y almacenamiento de sus pedidos. Esto le permitirá reasignar esos recursos a otras áreas de su negocio, maximizando su rentabilidad.\n\n2. **Mejora en la experiencia del cliente con un chatbot personalizado**\n   Diseñamos un chatbot avanzado que no solo resolverá consultas técnicas en tiempo real, sino que también ofrecerá recomendaciones personalizadas basadas en su historial de compras. Este sistema garantiza una atención inmediata y aumentará la satisfacción de sus clientes, reduciendo tiempos de espera y mejorando la fidelización.\n\n3. **Implementación de un sistema de seguimiento en tiempo real para pedidos**\n   Le ofrecemos un panel de control intuitivo donde podrá monitorear el estado de sus pedidos desde su origen hasta su destino final. Esto no solo brinda transparencia, sino que también permite anticipar posibles retrasos y tomar medidas correctivas, garantizando la puntualidad y confiabilidad en sus entregas.\n\nEstas tres propuestas están diseñadas para ser implementadas de manera escalable y adaptarse a sus necesidades específicas. Estamos disponibles para una llamada o reunión virtual para discutir cómo podríamos integrar estas soluciones en su operación actual.\n\nQuedamos atentos a su respuesta.\n\n**Cordialmente,**\n[Nombre completo]\n[Cargo]\n[Nombre de la Empresa]\n[Teléfono]\n[Correo electrónico]\n[Website de la empresa]\n\n---\n**Notas adicionales (si aplica):**\n- Ajustar el tono según la cultura empresarial del cliente (ej.: más técnico, comercial, etc.).\n- Incluir datos concretos de ahorros estimados (ej.: *\"Reducción promedio del 15% en costos",
+        "time_seconds": 172.05,
+        "ttft_seconds": 31.714,
+        "tokens_generated": 512,
+        "tokens_per_second": 4.35
+    },
+    {
+        "id": "1_temp_0.2",
+        "category": "Generación de texto",
+        "prompt": "Redacta un correo formal dirigido a un cliente potencial sobre tres ideas clave para una nueva propuesta de servicio: 1) reducción de costos en logística, 2) mejora en la experiencia del cliente con un chatbot personalizado, y 3) implementación de un sistema de seguimiento en tiempo real para pedidos.",
+        "temperature": 0.2,
+        "response": "**Asunto:** Propuesta innovadora para optimizar sus operaciones logísticas\n\n**Estimado/a [Nombre del cliente],**\n\nEs un placer dirigirnos a usted para compartir con ustedes tres ideas clave que consideramos podrían enriquecer sus procesos operativos, mejorando tanto la eficiencia como la satisfacción de sus clientes. En [Nombre de tu empresa], estamos comprometidos con ofrecer soluciones personalizadas que se alineen con sus objetivos y necesidades específicas.\n\n### **1. Reducción de costos en logística**\nLa optimización de los costos asociados a la distribución es un aspecto crítico para cualquier empresa. En nuestra propuesta, implementamos estrategias como:\n- **Rutas inteligentes:** Utilizamos algoritmos avanzados para planificar trayectorias que minimicen tiempos y combustible, reduciendo gastos operativos.\n- **Consolidación de envíos:** Agrupamos pedidos de diferentes clientes en una misma ruta, lo que disminuye el número de entregas y costos fijos.\n- **Negociaciones con proveedores:** Trabajamos con socios estratégicos para obtener tarifas preferenciales en transporte y almacenamiento.\n\nEstas medidas no solo generan ahorros directos, sino que también permiten reinvertir en innovación para mantener una ventaja competitiva.\n\n---\n\n### **2. Mejora en la experiencia del cliente con un chatbot personalizado**\nLa personalización es clave para diferenciarse en un mercado saturado. Proponemos integrar un **chatbot avanzado** que:\n- **Responda en tiempo real:** Ofrece respuestas inmediatas a consultas frecuentes sobre estado de pedidos, políticas de devolución o horarios de entrega.\n- **Adapte el lenguaje:** Utiliza un tono y vocabulario adaptados a las preferencias del cliente, mejorando la conexión emocional.\n- **Anticipa necesidades:** Analiza patrones de compra para sugerir productos complementarios o promociones personalizadas.\n\nEste sistema no solo agiliza el servicio, sino que también reduce la carga en el equipo de atención al cliente, permitiéndoles enfocarse en casos complejos.\n\n---\n### **3. Implementación de un sistema de seguimiento en tiempo real para pedidos**\nLa transparencia es fundamental para la confianza del cliente. Proponemos:\n- **Monitoreo en tiempo real:** Acceso instantáneo a la ubicación exacta del pedido mediante GPS y sensores IoT, con actualizaciones automáticas",
+        "time_seconds": 113.42,
+        "ttft_seconds": 0.2506,
+        "tokens_generated": 512,
+        "tokens_per_second": 4.53
+    },
+    {
+        "id": "1_temp_0.9",
+        "category": "Generación de texto",
+        "prompt": "Redacta un correo formal dirigido a un cliente potencial sobre tres ideas clave para una nueva propuesta de servicio: 1) reducción de costos en logística, 2) mejora en la experiencia del cliente con un chatbot personalizado, y 3) implementación de un sistema de seguimiento en tiempo real para pedidos.",
+        "temperature": 0.9,
+        "response": "**Asunto:** Propuesta Innovadora para Optimizar sus Operaciones – [Su Nombre]\n\n**Estimado/a [Nombre del Cliente],**\n\nEs un placer dirigirnos a usted desde [Nombre de tu Empresa], con el objetivo de ofrecerle una propuesta integral que pueda generar valor en sus operaciones actuales. En nuestra experiencia, hemos identificado en múltiples sectores —incluyendo el suyo— la necesidad de optimizar procesos clave para reducir costos y mejorar la eficiencia, siempre desde una perspectiva centrada en la experiencia del cliente.\n\nA continuación, le compartimos **tres ideas clave** que podrían formar parte de una propuesta futura, diseñadas para alinearse con sus objetivos estratégicos:\n\n---\n\n### **1. Reducción de costos en logística**\nOptimizar la cadena de suministros puede generar ahorros significativos, especialmente en operaciones transcontinentales o con múltiples puntos de distribución. Algunas estrategias que podríamos implementar incluyen:\n- **Análisis predictivo de rutas:** Utilización de algoritmos que ajusten rutas en tiempo real según condiciones climáticas, tráfico o plazos de entrega, reduciendo costos por congestión o reubicaciones.\n- **Consolidación de envíos:** Centralizar pedidos pequeños en un solo transporte para reducir gastos de envío.\n- **Partners locales especializados:** Colaborar con proveedores de logística en zonas de alto coste para optimizar costos sin sacrificar servicio.\n\n*Ejemplo práctico:* En 2025, una cadena minorista implementó esta estrategia y redujo sus gastos logísticos en un **15%** sin impacto en la satisfacción del cliente.\n\n---\n\n### **2. Mejora en la experiencia del cliente con un chatbot personalizado**\nAutomatizar el servicio al cliente con herramientas avanzadas (como inteligencia artificial de conversación) puede agilizar respuestas y ofrecer asistencia 24/7. Algunas funcionalidades que podrían adaptarse a su caso:\n- **Resolución instantánea de consultas frecuentes** (ej.: seguimiento de pedidos, devolucciones, promociones).\n- **Personalización:** Incluir datos históricos del cliente para ofrecer recomendaciones basadas en su comportamiento (ej.: \"Recibió este producto con frecuencia\").\n- **Integración con otros canales:** Permitir que las consultas generadas en la web se transcurran directamente en la app móvil o red social.\n\n*Beneficio:* Estimulará la retención de clientes",
+        "time_seconds": 99.48,
+        "ttft_seconds": 0.1842,
+        "tokens_generated": 512,
+        "tokens_per_second": 5.16
+    },
+    {
+        "id": 2,
+        "category": "Resumen",
+        "prompt": "Resume en 3 viñetas el siguiente texto (500 palabras): 'El cambio climático ha acelerado la desertificación en regiones como el Sahel, afectando a más de 60 millones de personas. Las sequías prolongadas reducen la producción agrícola, mientras que la migración interna genera tensiones sociales. Expertos advierten que sin medidas urgentes, el fenómeno podría empeorar en un 30% para 2050.'",
+        "temperature": 0.7,
+        "response": "- **Impacto en el Sahel y migración forzada**:\n  El cambio climático está acelerando la **desertificación** en el Sahel, afectando a más de **60 millones de personas**, principalmente debido a **sequías prolongadas** que reducen la producción agrícola. Esto promueve una migración interna que genera tensiones sociales en la región.\n\n- **Advertencia sobre el empeoramiento del fenómeno**:\n  Según expertos, si no se toman medidas urgentes, la desertificación podría **aumentar un 30% para 2050**, agravando aún más la crisis en la zona.\n\n- **Contexto social y económico**:\n  El colapso agrícola y la pérdida de recursos naturales desencadenan problemas sociales, como desplazamientos masivos y conflictos por recursos, exacerbados por la dependencia económica de la agricultura en estas zonas vulnerables.",
+        "time_seconds": 47.39,
+        "ttft_seconds": 5.9613,
+        "tokens_generated": 189,
+        "tokens_per_second": 4.58
+    },
+    {
+        "id": 3,
+        "category": "Corrección y traducción",
+        "prompt": "Corrige los errores ortográficos: 'Hola, me gustaría saber si puueden enbiar el informe antes del 27 de octubre. En caso contrario, ¿poddrian avizarme con al menos 3 dias de antelación? Gracias por su atencióón.'",
+        "temperature": 0.7,
+        "response": "Aquí tienes tu mensaje corregido:\n\n---\n\n**Hola,** me gustaría saber si **podrían** enviar el informe antes del 27 de octubre. En caso contrario, ¿**podrían** avisarme con al menos 3 días de antelación? Gracias por su atención.\n\n---\n*Se corrigieron los siguientes errores:*\n- **\"puueden\" → \"podrían\"** (ortografía y conjugación del verbo).\n- **\"enbiar\" → \"enviar\"** (error ortográfico).\n- **\"antelación\" → \"antelación\"** (correcta, pero también podrías escribir *\"antecedencia\"* si prefieres un término alternativo).\n- **\"atencióón\" → \"atención\"** (error ortográfico).",
+        "time_seconds": 35.43,
+        "ttft_seconds": 3.5701,
+        "tokens_generated": 159,
+        "tokens_per_second": 5.0
+    },
+    {
+        "id": 4,
+        "category": "Código",
+        "prompt": "Genera una consulta SQL para obtener todos los registros de clientes con un saldo negativo mayor a -500 y ordenados por fecha de última actualización (de más reciente a más antigua). Asumir que la tabla se llama `clientes` con columnas: `id`, `nombre`, `apellido`, `saldo`, `fecha_ultima_actualizacion`.",
+        "temperature": 0.7,
+        "response": "Aquí tienes la consulta SQL solicitada:\n\n```sql\nSELECT *\nFROM clientes\nWHERE saldo < -500\nORDER BY fecha_ultima_actualizacion DESC;\n```\n\nEsta consulta:\n1. Selecciona todos los registros de la tabla `clientes`\n2. Filtra solo para clientes con saldo menor a -500 (mayor a -500 en valor absoluto)\n3. Ordena los resultados por `fecha_ultima_actualizacion` en orden descendente (de más reciente a más antigua)",
+        "time_seconds": 26.7,
+        "ttft_seconds": 4.5352,
+        "tokens_generated": 113,
+        "tokens_per_second": 5.12
+    },
+    {
+        "id": 5,
+        "category": "Código",
+        "prompt": "Escribe una función Python que calcule el factorial de un número entero positivo. Verifica su funcionamiento con los casos de prueba: `factorial(5)` -> `120`, `factorial(0)` -> `1`, y `factorial(7)` -> `5040`.",
+        "temperature": 0.7,
+        "response": "Aquí tienes una función Python que calcula el factorial de un número entero positivo usando una implementación recursiva, junto con los casos de prueba que mencionaste:\n\n```python\ndef factorial(n):\n    \"\"\"\n    Calcula el factorial de un número entero positivo.\n\n    Parámetros:\n    n (int): Número entero positivo para calcular su factorial.\n\n    Retorna:\n    int: El factorial de n.\n    \"\"\"\n    # Verificación de entrada (solo números positivos)\n    if not isinstance(n, int) or n < 0:\n        raise ValueError(\"El número debe ser un entero positivo.\")\n\n    # Caso base: factorial(0) = 1\n    if n == 0:\n        return 1\n    # Caso recursivo: n! = n * (n-1)!\n    else:\n        return n * factorial(n - 1)\n\n# Casos de prueba\nprint(factorial(5))   # Esperado: 120\nprint(factorial(0))   # Esperado: 1\nprint(factorial(7))   # Esperado: 5040\n```\n\n### Explicación del código:\n1. **Validación de entrada**: La función verifica que el argumento sea un entero positivo. Si no lo es, lanza una excepción.\n2. **Base del caso recursivo**:\n   - `factorial(0) = 1` (por definición matemática).\n   - Para `n > 0`, la función se reduce a `n * factorial(n - 1)`.\n3. **Ejemplo de uso**:\n   - `factorial(5)`: `5 * 4 * 3 * 2 * 1 = 120`.\n   - `factorial(0)`: Devuelve `1`.\n   - `factorial(7)`: `7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040`.\n\n### Notas adicionales:\n- **Alternativa iterativa**: Si prefieres evitar la recursión (para evitar posibles problemas de pila en valores muy grandes de `n`), puedes usar un bucle:\n  ```python\n  def factorial_iterativo(n):\n      if not isinstance(n, int) or n < 0:\n          raise ValueError(\"El número debe ser un entero positivo.\")\n      resultado = 1\n      for i in range(1, n + 1):\n          resultado",
+        "time_seconds": 109.78,
+        "ttft_seconds": 3.6863,
+        "tokens_generated": 512,
+        "tokens_per_second": 4.83
+    },
+    {
+        "id": 6,
+        "category": "Razonamiento y veracidad",
+        "prompt": "Problema lógico: Si un avión vuela de París a Nueva York en 7 horas con un viento favorable de 200 km/h, y el viento en contra reduce la velocidad a 150 km/h, ¿cuál es la velocidad real del avión en condiciones neutras (sin viento)?",
+        "temperature": 0.7,
+        "response": "Para resolver este problema, utilizaremos la siguiente metodología:\n\n### **Datos del problema:**\n- Tiempo total en condiciones favorables: 7 horas.\n- Velocidad con viento favorable: **V + 200 km/h** (velocidad del avión más velocidad del viento).\n- Velocidad con viento en contra: **V − 150 km/h** (velocidad del avión menos velocidad del viento).\n\n### **Suposición:**\n- La distancia entre París y Nueva York es la misma en ambas situaciones (ida y vuelta no se considera, asumimos que es una sola distancia de ida).\n\n---\n\n### **Resolución paso a paso:**\n\n1. **Expresamos la distancia como función del tiempo:**\n\n   - Con viento favorable:\n     \\[\n     D = (V + 200) \\times 7\n     \\]\n\n   - Con viento en contra:\n     \\[\n     D = (V - 150) \\times T\n     \\]\n     *(Aquí falta el tiempo en contra, pero podemos suponer que el vuelo se realiza en ambas condiciones, por lo que la distancia total sería el mismo trayecto ida y vuelta, pero como el problema menciona un vuelo completo, lo interpretamos como un mismo trayecto con viento en un sentido y otro en el otro.)*\n\n   **Corrección:** El problema debe interpretarse como un **vuelo de ida y vuelta** para tener dos velocidades distintas. Sin embargo, como la distancia es la misma en ambas condiciones (en sentido contrario), se puede proceder así:\n\n   - **Vuelo con viento favorable (ida):** \\( D = (V + 200) \\times t_1 \\)\n   - **Vuelo con viento en contra (vuelta):** \\( D = (V - 150) \\times t_2 \\)\n\n   **Pero solo tenemos la hora total del vuelo en condiciones favorables (7 h):** asumimos que solo se considera el vuelo **con viento favorable** (ida) para una parte del trayecto, y luego se aplica viento en contra (vuelta). Así, en el vuelo completo (ida y vuelta) la distancia total se divide en dos partes iguales (ida y vuelta), por lo que se podría hacer:\n\n   - Distancia ida = \\( D = (V + 200) \\times \\frac{7}{2} \\)\n   - Distancia vuelta = \\( D = (V - 150) \\times",
+        "time_seconds": 105.86,
+        "ttft_seconds": 3.5983,
+        "tokens_generated": 512,
+        "tokens_per_second": 5.01
+    },
+    {
+        "id": 7,
+        "category": "Razonamiento y veracidad",
+        "prompt": "Pregunta factual: Según datos verificables de la ONU, ¿cuál es el país con mayor población urbana en el mundo?",
+        "temperature": 0.7,
+        "response": "Según los datos más recientes disponibles hasta mi última actualización (octubre de 2023), los datos de la ONU sobre población urbana suelen referirse principalmente a estimaciones de **2022** o **2023**. Según esos datos:\n\n**China** era el país con la mayor población urbana en el mundo, superando a India en número de habitantes en ciudades y áreas urbanas.\n\nSin embargo, desde **2024**, el panorama ha cambiado gracias a nuevas estimaciones de la ONU y fuentes como el Banco Mundial y la ONU Habitat (según datos actualizados).\n\nEn **2026**, según las últimas estimaciones disponibles en fuentes oficiales para ese año, el país con **mayor población urbana** es:\n\n🇮🇳 **India**\n\nIndia superó a China en el año **2026** en cuanto a población urbana, con aproximadamente **600-620 millones de habitantes** en ciudades y áreas urbanas, según los últimos informes de la ONU y el Banco Mundial.\n\nEstos datos corresponden a estimaciones recientes y reflejan el crecimiento demográfico que ha impulsado el desarrollo urbano en el país asiático. Si necesitas datos más específicos de años concretos en 2026, te recomendaría consultar informes recientes de la ONU o fuentes especializadas.",
+        "time_seconds": 60.08,
+        "ttft_seconds": 2.2353,
+        "tokens_generated": 282,
+        "tokens_per_second": 4.89
+    },
+    {
+        "id": 8,
+        "category": "Generación de texto",
+        "prompt": "Escribe un correo técnico a un equipo de desarrollo explicando tres bugs críticos detectados en la última versión de la app: 1) error en el filtro de búsquedas, 2) fallo en la sincronización de datos offline, y 3) tiempo de carga excesivo en dispositivos móviles.",
+        "temperature": 0.7,
+        "response": "**[Asunto]** Revisión crítica: Resolución urgente de bugs en versión 2.1.0 de la aplicación\n\n**A quién:** Equipo de Desarrollo (Scrum Master, Backend, Frontend, QA)\n**De:** [Tu nombre/rol en la empresa]\n**Fecha:** 24/10/2026\n\n---\n\n**Hola equipo,**\n\nTras las pruebas en producción de la nueva versión **2.1.0** de la aplicación [Nombre de la app], hemos identificado **tres bugs críticos** que requieren atención inmediata para evitar afectar la experiencia del usuario (UX) y la calidad del servicio. A continuación, te detallo cada uno con detalles técnicos y priorización de acciones:\n\n---\n\n### **1. Error en el filtro de búsquedas (Bug #BUG-0042)**\n**Síntomas:**\n- Al aplicar filtros (ej: fecha, rango de precios, categorías), la búsqueda no devuelve resultados esperados.\n- Error en logs: `\"ErrorFilterInvalidParams\"` o `NullPointerException` en la capa de servicios.\n- Resultados incompletos o duplicados en algunos casos.\n\n**Raíces:**\n- Fallo en la validación de parámetros en el endpoint `/api/search`:\n  - **Backend:** No se escanea correctamente el formato de datos entrantes (ej: `null` o tipos invalidos).\n  - **Frontend:** La interfaz no maneja bien los errores en tiempo real.\n- **SQL:** Consulta SQL no optimizada que no filtra correctamente por fechas (ej: `WHERE fecha BETWEEN ...` vs. `WHERE fecha = ...`).\n\n**Acciones prioritarias:**\n✅ **Backend:**\n   - Implementar validación de tipos en el DTO de entrada (`SearchRequest`).\n   - Depurar el endpoint con `try-catch` para manejar excepciones.\n   - Reescribir la consulta SQL para evitar fallos de comparación (ej: usar `BETWEEN` en lugar de `=` para rangos).\n\n✅ **Frontend:**\n   - Añadir feedback visual al usuario (ej: mensaje \"Procesando...\" o error claro).\n   - Pruebas unitarias para validar el comportamiento del filtro.\n\n✅ **QA:**\n   - Testear con casos extremos (ej: rango de fechas inválido, categorías nulas).\n   - Usar herramientas",
+        "time_seconds": 113.82,
+        "ttft_seconds": 4.1241,
+        "tokens_generated": 512,
+        "tokens_per_second": 4.68
+    },
+    {
+        "id": 9,
+        "category": "Resumen",
+        "prompt": "Resume en 3 viñetas el siguiente extracto de un artículo científico: 'Los microplásticos han sido encontrados en el 97% de los océanos, con concentraciones más altas en zonas costeras. Su impacto en la salud humana aún es debatido, pero estudios sugieren que pueden afectar el sistema inmunológico. La UE ha propuesto regulaciones para reducir su uso en productos de plástico.'",
+        "temperature": 0.7,
+        "response": "- **Presencia global**: Los microplásticos se detectan en el **97% de los océanos**, especialmente concentrados en zonas costeras.\n- **Impacto en salud humana**: Su efecto en el sistema inmunológico es debatido, aunque hay evidencias preliminares de riesgo.\n- **Regulación en la UE**: La Unión Europea avanza en normativas para limitar su producción en plásticos.",
+        "time_seconds": 22.5,
+        "ttft_seconds": 5.2209,
+        "tokens_generated": 87,
+        "tokens_per_second": 5.09
+    },
+    {
+        "id": "9_temp_0.2",
+        "category": "Resumen",
+        "prompt": "Resume en 3 viñetas el siguiente extracto de un artículo científico: 'Los microplásticos han sido encontrados en el 97% de los océanos, con concentraciones más altas en zonas costeras. Su impacto en la salud humana aún es debatido, pero estudios sugieren que pueden afectar el sistema inmunológico. La UE ha propuesto regulaciones para reducir su uso en productos de plástico.'",
+        "temperature": 0.2,
+        "response": "- **Presencia global y ambiental**:\n  Los microplásticos están presentes en el **97% de los océanos**, especialmente en zonas costeras, donde las concentraciones son más altas.\n\n- **Impacto en la salud humana**:\n  Aunque su efecto en la salud humana sigue siendo debatido, algunos estudios sugieren posibles efectos en el **sistema inmunológico**.\n\n- **Regulación en la UE**:\n  La Unión Europea ha propuesto medidas para **reducir su uso en productos de plástico**.",
+        "time_seconds": 21.09,
+        "ttft_seconds": 0.1887,
+        "tokens_generated": 107,
+        "tokens_per_second": 5.14
+    },
+    {
+        "id": "9_temp_0.9",
+        "category": "Resumen",
+        "prompt": "Resume en 3 viñetas el siguiente extracto de un artículo científico: 'Los microplásticos han sido encontrados en el 97% de los océanos, con concentraciones más altas en zonas costeras. Su impacto en la salud humana aún es debatido, pero estudios sugieren que pueden afectar el sistema inmunológico. La UE ha propuesto regulaciones para reducir su uso en productos de plástico.'",
+        "temperature": 0.9,
+        "response": "Aquí tienes un resumen en **3 viñetas**:\n\n- **Presencia global de microplásticos**: Se detectan en el **97% de los océanos**, con mayores concentraciones cerca de zonas costeras.\n- **Impacto en salud humana**: Aunque su efecto aún se debate, algunos estudios vinculan su presencia con posibles efectos en el **sistema inmunológico**.\n- **Acciones regulatorias**: La **UE ha propuesto regulaciones** para limitar su uso en plásticos.",
+        "time_seconds": 20.79,
+        "ttft_seconds": 0.2308,
+        "tokens_generated": 106,
+        "tokens_per_second": 5.18
+    },
+    {
+        "id": 10,
+        "category": "Corrección y traducción",
+        "prompt": "Traduce al inglés: 'El despliegue local de modelos de lenguaje garantiza una mayor privacidad de los datos sensibles de la organización'",
+        "temperature": 0.7,
+        "response": "\"The local deployment of language models ensures greater privacy for sensitive organizational data.\"",
+        "time_seconds": 5.77,
+        "ttft_seconds": 2.2118,
+        "tokens_generated": 15,
+        "tokens_per_second": 4.32
+    }
+]
